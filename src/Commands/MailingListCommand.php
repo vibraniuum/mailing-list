@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Vibraniuum\MailingList\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MailingListCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'mailing-list';
 
     public $description = 'My command';
 

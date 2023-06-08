@@ -1,14 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton\Actions;
+namespace Vibraniuum\MailingList\Actions;
 
 use Helix\Lego\Apps\Actions\Action;
 
-class SkeletonAction extends Action
+class MailingListAction extends Action
 {
     public static function actionName(): string
     {
-        return 'Skeleton action name';
+        return 'MailingList action name';
     }
 
     public static function run(): mixed
